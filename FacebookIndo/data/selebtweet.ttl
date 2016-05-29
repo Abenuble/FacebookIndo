@@ -1,0 +1,2585 @@
+@prefix skos: 		<http://www.w3.org/2004/02/skos/core#> .
+@prefix konsep: 	<http://contoh.com/konsep#> .
+@prefix rdf: 		<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: 		<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dimensi: 	<http://contoh.com/dimensi#> .
+@prefix qb: 		<http://purl.org/linked-data/cube#> .
+@prefix stats: 		<http://contoh.com/statistik#> .
+@prefix vocab: 		<http://contoh.com/vocab> .
+@prefix kategori: 	<http://contoh.com/kategori#> .
+@prefix namaakun: 	<http://contoh.com/namaakun#> .
+@prefix waktu: 		<http://contoh.com/waktu#> .
+@prefix xsd:      	<http://www.w3.org/2001/XMLSchema#> .
+
+@prefix st: 		<http://contoh.com/st#> .
+@prefix foaf: 		<http://xmlns.com/foaf/0.1/> .
+@prefix dbo: 		<http://dbpedia.org/ontology/> .
+
+@prefix sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> .
+@prefix sdmx-attribute: <http://purl.org/linked-data/sdmx/2009/attribute#> .
+@prefix sdmx-measure: 	<http://purl.org/linked-data/sdmx/2009/measure#> .
+
+st:artis1 rdf:type foaf:Person ;
+	rdfs:label "agnezmo" ;
+	foaf:name "Agnez Mo" ;
+	dbo:birthName "Agnes Monica Muljoto" ;
+	foaf:accountName "@agnezmo" ;
+	dbo:birthDate "1986-07-01" ;
+	dbo:birthPlace "Jakarta, Indonesia" ;
+	dbo:nationality "Indonesia" ;
+	dbo:religion "Kristen Protestan" ;
+	dbo:activeYearsStartYear "1992-sekarang" .
+
+st:artis2 rdf:type foaf:Person ;
+	rdfs:label "ahmaddhani" ;
+	foaf:name "Ahmad Dhani" ;
+	dbo:birthName "Ahmad Dhani Prasetyo" ;
+	foaf:accountName "@ahmaddhaniprast" ;
+	dbo:birthDate "1972-05-26" ;
+	dbo:birthPlace "Surabaya, Indonesia" ;
+	dbo:nationality "Indonesia" ;
+	dbo:religion "Islam" ;
+	dbo:activeYearsStartYear "1992-sekarang" .
+
+st:artis3 rdf:type foaf:Person ;
+	rdfs:label "alghazali" ;
+	foaf:name "Al Ghazali" ;
+	dbo:birthName "Ahmad Al Ghazali" ;
+	foaf:accountName "@alkohler7" ;
+	dbo:birthDate "1997-09-01" ;
+	dbo:birthPlace "Jakarta, Indonesia" ;
+	dbo:nationality "Indonesia" ;
+	dbo:religion "Islam" ;
+	dbo:activeYearsStartYear "2009-sekarang" .
+
+st:artis4 rdf:type foaf:Person ;
+	rdfs:label "aliando" ;
+	foaf:name "Aliando" ;
+	dbo:birthName "Muhammad Ali Syarief" ;
+	foaf:accountName "@alysyarief" ;
+	dbo:birthDate "1996-10-26" ;
+	dbo:birthPlace "Jakarta, Indonesia" ;
+	dbo:nationality "Indonesia" ;
+	dbo:religion "Islam" ;
+	dbo:activeYearsStartYear "2008-sekarang" .
+
+st:artis5 rdf:type foaf:Person ;
+	rdfs:label "aurelhermansyah"; 
+	foaf:name "Aurel Hermansyah" ;
+	dbo:birthName "Titania Aurelie Hermansyah" ;
+	foaf:accountName "@aurelhermansyah" ;
+	dbo:birthDate "1998-07-10" ;
+	dbo:birthPlace "Jakarta, Indonesia" ;
+	dbo:nationality "Indonesia" ;
+	dbo:religion "Islam" ;
+	dbo:activeYearsStartYear "2010-sekarang" .
+
+st:artis6 rdf:type foaf:Person ;
+	rdfs:label "ayutingting"; 
+	foaf:name "Ayu Ting Ting" ;
+	dbo:birthName "Ayu Rosmalina" ;
+	foaf:accountName "@aytingnew92" ;
+	dbo:birthDate "1992-06-20" ;
+	dbo:birthPlace "Depok, Indonesia" ;
+	dbo:nationality "Indonesia" ;
+	dbo:religion "Islam" ;
+	dbo:activeYearsStartYear "2006-sekarang" .
+
+st:artis7 rdf:type foaf:Person ;
+	rdfs:label "diansastro"; 
+	foaf:name "Dian Sastro" ;
+	dbo:birthName "Dian Paramita Sastrowardoyo" ;
+	foaf:accountName "@therealdisastr" ;
+	dbo:birthDate "1982-03-16" ;
+	dbo:birthPlace "Jakarta, Indonesia" ;
+	dbo:nationality "Indonesia" ;
+	dbo:religion "Islam" ;
+	dbo:activeYearsStartYear "1989-sekarang" .
+
+st:artis8 rdf:type foaf:Person ;
+	rdfs:label "gadingmarten"; 
+	foaf:name "Gading Marten" ;
+	dbo:birthName "Angling Gading Marten" ;
+	foaf:accountName "@gadiiing" ;
+	dbo:birthDate "1982-05-08" ;
+	dbo:birthPlace "Jakarta, Indonesia" ;
+	dbo:nationality "Indonesia" ;
+	dbo:religion "Kristen Protestan" ;
+	dbo:activeYearsStartYear "2007-sekarang" .
+
+st:artis9 rdf:type foaf:Person ;
+	rdfs:label "iwanfals" ;
+	foaf:name "Iwan Fals" ;
+	dbo:birthName "Virgiawan Listanto" ;
+	foaf:accountName "@iwanfals" ;
+	dbo:birthDate "1961-09-03" ;
+	dbo:birthPlace "Jakarta, Indonesia" ;
+	dbo:nationality "Indonesia" ;
+	dbo:religion "Islam" ;
+	dbo:activeYearsStartYear "1975-sekarang" .
+
+st:artis10 rdf:type foaf:Person ;
+	rdfs:label "juliaperez" ;
+	foaf:name "Julia Perez" ;
+	dbo:birthName "Yuli Rachmawati" ;
+	foaf:accountName "@juliaperrez" ;
+	dbo:birthDate "1980-07-15" ;
+	dbo:birthPlace "Jakarta, Indonesia" ;
+	dbo:nationality "Indonesia" ;
+	dbo:religion "Islam" ;
+	dbo:activeYearsStartYear "2002-sekarang" .
+
+st:artis11 rdf:type foaf:Person ;
+	rdfs:label "lunamaya" ;
+	foaf:name "Luna Maya" ;
+	dbo:birthName "Luna Maya" ;
+	foaf:accountName "@LunaMaya26" ;
+	dbo:birthDate "1983-08-26" ;
+	dbo:birthPlace "Denpasar, Indonesia" ;
+	dbo:nationality "Indonesia" ;
+	dbo:religion "Islam" ;
+	dbo:activeYearsStartYear "1999-sekarang" .
+
+st:artis12 rdf:type foaf:Person ;
+	rdfs:label "melodyjkt48" ;
+	foaf:name "Melody JKT48" ;
+	dbo:birthName "Melody Nurramdhani Laksani" ;
+	foaf:accountName "@melodyJKT48" ;
+	dbo:birthDate "1992-03-24" ;
+	dbo:birthPlace "Bandung, Indonesia" ;
+	dbo:nationality "Indonesia" ;
+	dbo:religion "Islam" ;
+	dbo:activeYearsStartYear "2011-sekarang" .
+
+st:artis13 rdf:type foaf:Person ;
+	rdfs:label "nabilahjkt48" ;
+	foaf:name "Nabilah JKT48" ;
+	dbo:birthName "Nabilah Ratna Ayu Azalia" ;
+	foaf:accountName "@nabilahJKT48" ;
+	dbo:birthDate "1999-11-11" ;
+	dbo:birthPlace "Jakarta, Indonesia" ;
+	dbo:nationality "Indonesia" ;
+	dbo:religion "Islam" ;
+	dbo:activeYearsStartYear "2011-sekarang" .
+
+st:artis14 rdf:type foaf:Person ;
+	rdfs:label "prillybie" ;
+	foaf:name "Prilly Latuconsina" ;
+	dbo:birthName "Prilly Latuconsina" ;
+	foaf:accountName "@PrillyBie" ;
+	dbo:birthDate "1996-10-15" ;
+	dbo:birthPlace "Tangerang, Indonesia" ;
+	dbo:nationality "Indonesia" ;
+	dbo:religion "Islam" ;
+	dbo:activeYearsStartYear "2009-sekarang" .
+
+st:artis15 rdf:type foaf:Person ;
+	rdfs:label "radityadika" ;
+	foaf:name "Raditya Dika" ;
+	dbo:birthName "Dika Angkasaputra Moerwani" ;
+	foaf:accountName "@radityadika" ;
+	dbo:birthDate "1984-12-28" ;
+	dbo:birthPlace "Jakarta, Indonesia" ;
+	dbo:nationality "Indonesia" ;
+	dbo:religion "Islam" ;
+	dbo:activeYearsStartYear "2004-sekarang" .
+
+st:artis16 rdf:type foaf:Person ;
+	rdfs:label "syahrini" ;
+	foaf:name "Syahrini" ;
+	dbo:birthName "Rini Fatimah Jaelani, S.H." ;
+	foaf:accountName "@PrincesSyahrini" ;
+	dbo:birthDate "1982-08-01" ;
+	dbo:birthPlace "Bogor, Indonesia" ;
+	dbo:nationality "Indonesia" ;
+	dbo:religion "Islam" ;
+	dbo:activeYearsStartYear "2008-sekarang" .
+
+vocab:namaakun a rdfs:Class .
+vocab:kategori a rdfs:Class .
+vocab:waktu a rdfs:Class .
+
+namaakun:agnezmo
+	a skos:Concept, vocab:namaakun ;
+	rdfs:label "@agnezmo" ;
+	skos:inScheme konsep:NamaAkun .
+namaakun:ahmaddhaniprast
+	a skos:Concept, vocab:namaakun ;
+	rdfs:label "@ahmaddhaniprast" ;
+	skos:inScheme konsep:NamaAkun .
+namaakun:alkohler7
+	a skos:Concept, vocab:namaakun ;
+	rdfs:label "@alkohler7" ;
+	skos:inScheme konsep:NamaAkun .
+namaakun:alysyarief
+	a skos:Concept, vocab:namaakun ;
+	rdfs:label "@alysyarief" ;
+	skos:inScheme konsep:NamaAkun .
+namaakun:aurelhermansyah
+	a skos:Concept, vocab:namaakun ;
+	rdfs:label "@aurelhermansyah" ;
+	skos:inScheme konsep:NamaAkun .
+namaakun:aytingnew92
+	a skos:Concept, vocab:namaakun ;
+	rdfs:label "@aytingnew92" ;
+	skos:inScheme konsep:NamaAkun .
+namaakun:therealdisastr
+	a skos:Concept, vocab:namaakun ;
+	rdfs:label "@therealdisastr" ;
+	skos:inScheme konsep:NamaAkun .
+namaakun:gadiiing
+	a skos:Concept, vocab:namaakun ;
+	rdfs:label "@gadiiing" ;
+	skos:inScheme konsep:NamaAkun .
+namaakun:iwanfals
+	a skos:Concept, vocab:namaakun ;
+	rdfs:label "@iwanfals" ;
+	skos:inScheme konsep:NamaAkun .
+namaakun:juliaperrez
+	a skos:Concept, vocab:namaakun ;
+	rdfs:label "@juliaperrez" ;
+	skos:inScheme konsep:NamaAkun .
+namaakun:lunamaya26
+	a skos:Concept, vocab:namaakun ;
+	rdfs:label "@LunaMaya26" ;
+	skos:inScheme konsep:NamaAkun .
+namaakun:melodyjkt48
+	a skos:Concept, vocab:namaakun ;
+	rdfs:label "@melodyJKT48" ;
+	skos:inScheme konsep:NamaAkun .
+namaakun:nabilahjkt48
+	a skos:Concept, vocab:namaakun ;
+	rdfs:label "@nabilahJKT48" ;
+	skos:inScheme konsep:NamaAkun .
+namaakun:prillybie
+	a skos:Concept, vocab:namaakun ;
+	rdfs:label "@PrillyBie" ;
+	skos:inScheme konsep:NamaAkun .
+namaakun:radityadika
+	a skos:Concept, vocab:namaakun ;
+	rdfs:label "@radityadika" ;
+	skos:inScheme konsep:NamaAkun .
+namaakun:princessyahrini
+	a skos:Concept, vocab:namaakun ;
+	rdfs:label "@PrincesSyahrini" ;
+	skos:inScheme konsep:NamaAkun .
+	
+kategori:event
+	a skos:Concept, vocab:kategori ;
+	rdfs:label "Event" ;
+	skos:inScheme konsep:Kategori .
+kategori:promosi
+	a skos:Concept, vocab:kategori ;
+	rdfs:label "Promosi" ;
+	skos:inScheme konsep:Kategori .
+kategori:produk
+	a skos:Concept, vocab:kategori ;
+	rdfs:label "Produk" ;
+	skos:inScheme konsep:Kategori .
+kategori:motivasi
+	a skos:Concept, vocab:kategori ;
+	rdfs:label "Pesan / Motivasi" ;
+	skos:inScheme konsep:Kategori .
+kategori:keluarga
+	a skos:Concept, vocab:kategori ;
+	rdfs:label "Keluarga" ;
+	skos:inScheme konsep:Kategori .
+	
+waktu:pagi
+	a skos:Concept, vocab:waktu ;
+	rdfs:label "Pagi" ;
+	skos:inScheme konsep:Waktu .
+waktu:siang
+	a skos:Concept, vocab:waktu ;
+	rdfs:label "Siang" ;
+	skos:inScheme konsep:Waktu .
+waktu:sore
+	a skos:Concept, vocab:waktu ;
+	rdfs:label "Sore" ;
+	skos:inScheme konsep:Waktu .
+waktu:malam
+	a skos:Concept, vocab:waktu ;
+	rdfs:label "Malam" ;
+	skos:inScheme konsep:Waktu .
+
+konsep:NamaAkun a skos:ConceptScheme ;
+	rdfs:label "Akun Twitter" ;
+	skos:hasTopConcept namaakun:agnezmo, namaakun:ahmaddhaniprast, namaakun:alkohler7, namaakun:alysyarief, namaakun:aurelhermansyah, namaakun:aytingnew92, namaakun:therealdisastr, namaakun:gadiiing, namaakun:iwanfals, namaakun:juliaperrez, namaakun:lunamaya26, namaakun:melodyjkt48, namaakun:nabilahjkt48, namaakun:prillybie, namaakun:radityadika, namaakun:princessyahrini ;
+	skos:notation "NamaAkun" .
+konsep:Kategori a skos:ConceptScheme ;
+	rdfs:label "Tahun" ;
+	skos:hasTopConcept kategori:event, kategori:promosi, kategori:produk, kategori:motivasi, kategori:keluarga ;
+	skos:notation "Kategori" .	
+konsep:Waktu a skos:ConceptScheme ;
+	rdfs:label "Waktu" ;
+	skos:hasTopConcept waktu:pagi, waktu:siang, waktu:sore, waktu:malam ;
+	skos:notation "Waktu" .
+
+dimensi:namaakun
+	qb:CodeList konsep:NamaAkun ;
+	a rdfs:Property, qb:DimensionProperty ;
+	rdfs:range skos:Concept .
+dimensi:kategori
+	qb:CodeList konsep:Kategori ;
+	a rdfs:Property, qb:DimensionProperty ;
+	rdfs:range skos:Concept .
+dimensi:waktu
+	qb:CodeList konsep:Waktu ;
+	a rdfs:Property, qb:DimensionProperty ;
+	rdfs:range skos:Concept .
+
+stats:jumlah_tweet a rdf:Property, qb:MeasureProperty ;
+        rdfs:label "jumlah_tweet" ;
+        rdfs:range xsd:integer .
+	
+stats:dataselebtweet 
+	a qb:DataStructureDefinition ;
+    qb:component [ qb:dimension dimensi:namaakun],
+    			 [ qb:dimension dimensi:kategori],
+	             [ qb:dimension dimensi:waktu],
+   				 [ qb:measure stats:jumlah_tweet] .
+
+stats:datasetselebtweet
+    a qb:DataSet ;
+    rdfs:label "Data_Tweet_Selebriti" ;
+    qb:structure stats:dataselebtweet .  
+
+stats:data_1_1_1 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:agnezmo ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 1 .
+
+stats:data_1_1_2 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:agnezmo ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 0 .
+
+stats:data_1_1_3 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:agnezmo ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 1 .
+
+stats:data_1_1_4 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:agnezmo ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 2 .
+
+stats:data_1_1_5 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:agnezmo ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 0 .
+
+stats:data_1_2_1 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:agnezmo ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_1_2_2 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:agnezmo ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_1_2_3 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:agnezmo ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_1_2_4 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:agnezmo ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 1 .
+
+stats:data_1_2_5 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:agnezmo ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_1_3_1 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:agnezmo ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_1_3_2 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:agnezmo ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_1_3_3 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:agnezmo ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_1_3_4 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:agnezmo ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 3 .
+
+stats:data_1_3_5 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:agnezmo ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_1_4_1 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:agnezmo ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 3 .
+
+stats:data_1_4_2 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:agnezmo ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 1 .
+
+stats:data_1_4_3 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:agnezmo ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 1 .
+
+stats:data_1_4_4 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:agnezmo ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 10 .
+
+stats:data_1_4_5 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:agnezmo ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 0 .
+
+stats:data_2_1_1 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:ahmaddhaniprast ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 2 .
+
+stats:data_2_1_2 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:ahmaddhaniprast ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 1 .
+
+stats:data_2_1_3 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:ahmaddhaniprast ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 1 .
+
+stats:data_2_1_4 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:ahmaddhaniprast ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 0 .
+
+stats:data_2_1_5 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:ahmaddhaniprast ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 0 .
+
+stats:data_2_2_1 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:ahmaddhaniprast ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 2 .
+
+stats:data_2_2_2 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:ahmaddhaniprast ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_2_2_3 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:ahmaddhaniprast ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_2_2_4 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:ahmaddhaniprast ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_2_2_5 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:ahmaddhaniprast ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_2_3_1 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:ahmaddhaniprast ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_2_3_2 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:ahmaddhaniprast ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_2_3_3 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:ahmaddhaniprast ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_2_3_4 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:ahmaddhaniprast ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_2_3_5 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:ahmaddhaniprast ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 1 .
+
+stats:data_2_4_1 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:ahmaddhaniprast ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 8 .
+
+stats:data_2_4_2 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:ahmaddhaniprast ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 0 .
+
+stats:data_2_4_3 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:ahmaddhaniprast ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 10 .
+
+stats:data_2_4_4 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:ahmaddhaniprast ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 0 .
+
+stats:data_2_4_5 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:ahmaddhaniprast ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 0 .
+
+stats:data_3_1_1 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:alkohler7 ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 2 .
+
+stats:data_3_1_2 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:alkohler7 ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 0 .
+
+stats:data_3_1_3 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:alkohler7 ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 2 .
+
+stats:data_3_1_4 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:alkohler7 ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 0 .
+
+stats:data_3_1_5 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:alkohler7 ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 0 .
+
+stats:data_3_2_1 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:alkohler7 ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_3_2_2 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:alkohler7 ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_3_2_3 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:alkohler7 ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_3_2_4 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:alkohler7 ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_3_2_5 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:alkohler7 ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_3_3_1 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:alkohler7 ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_3_3_2 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:alkohler7 ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_3_3_3 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:alkohler7 ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_3_3_4 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:alkohler7 ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_3_3_5 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:alkohler7 ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_3_4_1 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:alkohler7 ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 8 .
+
+stats:data_3_4_2 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:alkohler7 ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 0 .
+
+stats:data_3_4_3 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:alkohler7 ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 7 .
+
+stats:data_3_4_4 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:alkohler7 ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 1 .
+
+stats:data_3_4_5 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:alkohler7 ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 1 .
+
+stats:data_4_1_1 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:alysyarief ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 1 .
+
+stats:data_4_1_2 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:alysyarief ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 0 .
+
+stats:data_4_1_3 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:alysyarief ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 0 .
+
+stats:data_4_1_4 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:alysyarief ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 0 .
+
+stats:data_4_1_5 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:alysyarief ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 0 .
+
+stats:data_4_2_1 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:alysyarief ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_4_2_2 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:alysyarief ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_4_2_3 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:alysyarief ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_4_2_4 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:alysyarief ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_4_2_5 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:alysyarief ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_4_3_1 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:alysyarief ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_4_3_2 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:alysyarief ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_4_3_3 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:alysyarief ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_4_3_4 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:alysyarief ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_4_3_5 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:alysyarief ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_4_4_1 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:alysyarief ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 0 .
+
+stats:data_4_4_2 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:alysyarief ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 8 .
+
+stats:data_4_4_3 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:alysyarief ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 12 .
+
+stats:data_4_4_4 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:alysyarief ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 5 .
+
+stats:data_4_4_5 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:alysyarief ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 0 .
+
+stats:data_5_1_1 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:aurelhermansyah ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 3 .
+
+stats:data_5_1_2 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:aurelhermansyah ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 1 .
+
+stats:data_5_1_3 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:aurelhermansyah ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 0 .
+
+stats:data_5_1_4 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:aurelhermansyah ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 6 .
+
+stats:data_5_1_5 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:aurelhermansyah ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 2 .
+
+stats:data_5_2_1 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:aurelhermansyah ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_5_2_2 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:aurelhermansyah ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_5_2_3 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:aurelhermansyah ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_5_2_4 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:aurelhermansyah ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_5_2_5 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:aurelhermansyah ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_5_3_1 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:aurelhermansyah ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 2 .
+
+stats:data_5_3_2 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:aurelhermansyah ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_5_3_3 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:aurelhermansyah ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_5_3_4 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:aurelhermansyah ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 2 .
+
+stats:data_5_3_5 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:aurelhermansyah ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_5_4_1 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:aurelhermansyah ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 6 .
+
+stats:data_5_4_2 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:aurelhermansyah ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 0 .
+
+stats:data_5_4_3 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:aurelhermansyah ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 1 .
+
+stats:data_5_4_4 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:aurelhermansyah ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 3 .
+
+stats:data_5_4_5 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:aurelhermansyah ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 0 .
+
+stats:data_6_1_1 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:aytingnew92 ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 2 .
+
+stats:data_6_1_2 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:aytingnew92 ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 1 .
+
+stats:data_6_1_3 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:aytingnew92 ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 0 .
+
+stats:data_6_1_4 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:aytingnew92 ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 5 .
+
+stats:data_6_1_5 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:aytingnew92 ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 0 .
+
+stats:data_6_2_1 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:aytingnew92 ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 1 .
+
+stats:data_6_2_2 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:aytingnew92 ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_6_2_3 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:aytingnew92 ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_6_2_4 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:aytingnew92 ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_6_2_5 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:aytingnew92 ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_6_3_1 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:aytingnew92 ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_6_3_2 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:aytingnew92 ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_6_3_3 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:aytingnew92 ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_6_3_4 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:aytingnew92 ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 1 .
+
+stats:data_6_3_5 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:aytingnew92 ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_6_4_1 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:aytingnew92 ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 9 .
+
+stats:data_6_4_2 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:aytingnew92 ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 5 .
+
+stats:data_6_4_3 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:aytingnew92 ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 0 .
+
+stats:data_6_4_4 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:aytingnew92 ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 13 .
+
+stats:data_6_4_5 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:aytingnew92 ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 0 .
+
+stats:data_7_1_1 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:therealdisastr ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 1 .
+
+stats:data_7_1_2 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:therealdisastr ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 0 .
+
+stats:data_7_1_3 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:therealdisastr ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 1 .
+
+stats:data_7_1_4 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:therealdisastr ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 1 .
+
+stats:data_7_1_5 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:therealdisastr ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 0 .
+
+stats:data_7_2_1 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:therealdisastr ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_7_2_2 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:therealdisastr ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_7_2_3 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:therealdisastr ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_7_2_4 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:therealdisastr ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_7_2_5 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:therealdisastr ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_7_3_1 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:therealdisastr ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_7_3_2 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:therealdisastr ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 1 .
+
+stats:data_7_3_3 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:therealdisastr ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_7_3_4 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:therealdisastr ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_7_3_5 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:therealdisastr ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_7_4_1 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:therealdisastr ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 7 .
+
+stats:data_7_4_2 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:therealdisastr ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 8 .
+
+stats:data_7_4_3 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:therealdisastr ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 5 .
+
+stats:data_7_4_4 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:therealdisastr ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 3 .
+
+stats:data_7_4_5 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:therealdisastr ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 0 .
+
+stats:data_8_1_1 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:gadiiing ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 0 .
+
+stats:data_8_1_2 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:gadiiing ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 0 .
+
+stats:data_8_1_3 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:gadiiing ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 1 .
+
+stats:data_8_1_4 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:gadiiing ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 1 .
+
+stats:data_8_1_5 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:gadiiing ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 0 .
+
+stats:data_8_2_1 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:gadiiing ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_8_2_2 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:gadiiing ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_8_2_3 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:gadiiing ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_8_2_4 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:gadiiing ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_8_2_5 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:gadiiing ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_8_3_1 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:gadiiing ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 2 .
+
+stats:data_8_3_2 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:gadiiing ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_8_3_3 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:gadiiing ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_8_3_4 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:gadiiing ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 1 .
+
+stats:data_8_3_5 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:gadiiing ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_8_4_1 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:gadiiing ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 10 .
+
+stats:data_8_4_2 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:gadiiing ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 0 .
+
+stats:data_8_4_3 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:gadiiing ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 0 .
+
+stats:data_8_4_4 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:gadiiing ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 1 .
+
+stats:data_8_4_5 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:gadiiing ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 2 .
+
+stats:data_9_1_1 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:iwanfals ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 1 .
+
+stats:data_9_1_2 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:iwanfals ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 0 .
+
+stats:data_9_1_3 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:iwanfals ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 0 .
+
+stats:data_9_1_4 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:iwanfals ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 0 .
+
+stats:data_9_1_5 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:iwanfals ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 0 .
+
+stats:data_9_2_1 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:iwanfals ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_9_2_2 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:iwanfals ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 1 .
+
+stats:data_9_2_3 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:iwanfals ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_9_2_4 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:iwanfals ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_9_2_5 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:iwanfals ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 1 .
+
+stats:data_9_3_1 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:iwanfals ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_9_3_2 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:iwanfals ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_9_3_3 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:iwanfals ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_9_3_4 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:iwanfals ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_9_3_5 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:iwanfals ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_9_4_1 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:iwanfals ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 0 .
+
+stats:data_9_4_2 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:iwanfals ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 5 .
+
+stats:data_9_4_3 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:iwanfals ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 2 .
+
+stats:data_9_4_4 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:iwanfals ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 1 .
+
+stats:data_9_4_5 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:iwanfals ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 1 .
+
+stats:data_10_1_1 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:juliaperrez ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 0 .
+
+stats:data_10_1_2 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:juliaperrez ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 0 .
+
+stats:data_10_1_3 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:juliaperrez ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 0 .
+
+stats:data_10_1_4 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:juliaperrez ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 3 .
+
+stats:data_10_1_5 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:juliaperrez ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 0 .
+
+stats:data_10_2_1 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:juliaperrez ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_10_2_2 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:juliaperrez ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_10_2_3 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:juliaperrez ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_10_2_4 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:juliaperrez ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_10_2_5 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:juliaperrez ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_10_3_1 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:juliaperrez ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 4 .
+
+stats:data_10_3_2 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:juliaperrez ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 1 .
+
+stats:data_10_3_3 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:juliaperrez ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_10_3_4 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:juliaperrez ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 2 .
+
+stats:data_10_3_5 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:juliaperrez ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_10_4_1 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:juliaperrez ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 3 .
+
+stats:data_10_4_2 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:juliaperrez ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 3 .
+
+stats:data_10_4_3 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:juliaperrez ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 3 .
+
+stats:data_10_4_4 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:juliaperrez ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 12 .
+
+stats:data_10_4_5 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:juliaperrez ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 0 .
+
+stats:data_11_1_1 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:lunamaya26 ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 3 .
+
+stats:data_11_1_2 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:lunamaya26 ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 2 .
+
+stats:data_11_1_3 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:lunamaya26 ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 0 .
+
+stats:data_11_1_4 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:lunamaya26 ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 1 .
+
+stats:data_11_1_5 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:lunamaya26 ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 0 .
+
+stats:data_11_2_1 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:lunamaya26 ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_11_2_2 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:lunamaya26 ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_11_2_3 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:lunamaya26 ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_11_2_4 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:lunamaya26 ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_11_2_5 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:lunamaya26 ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_11_3_1 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:lunamaya26 ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_11_3_2 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:lunamaya26 ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_11_3_3 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:lunamaya26 ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_11_3_4 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:lunamaya26 ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_11_3_5 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:lunamaya26 ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_11_4_1 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:lunamaya26 ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 5 .
+
+stats:data_11_4_2 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:lunamaya26 ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 3 .
+
+stats:data_11_4_3 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:lunamaya26 ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 6 .
+
+stats:data_11_4_4 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:lunamaya26 ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 4 .
+
+stats:data_11_4_5 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:lunamaya26 ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 0 .
+
+stats:data_12_1_1 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:melodyjkt48 ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 4 .
+
+stats:data_12_1_2 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:melodyjkt48 ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 0 .
+
+stats:data_12_1_3 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:melodyjkt48 ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 0 .
+
+stats:data_12_1_4 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:melodyjkt48 ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 3 .
+
+stats:data_12_1_5 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:melodyjkt48 ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 0 .
+
+stats:data_12_2_1 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:melodyjkt48 ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_12_2_2 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:melodyjkt48 ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_12_2_3 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:melodyjkt48 ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_12_2_4 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:melodyjkt48 ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_12_2_5 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:melodyjkt48 ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_12_3_1 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:melodyjkt48 ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 1 .
+
+stats:data_12_3_2 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:melodyjkt48 ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_12_3_3 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:melodyjkt48 ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_12_3_4 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:melodyjkt48 ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_12_3_5 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:melodyjkt48 ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_12_4_1 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:melodyjkt48 ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 8 .
+
+stats:data_12_4_2 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:melodyjkt48 ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 0 .
+
+stats:data_12_4_3 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:melodyjkt48 ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 0 .
+
+stats:data_12_4_4 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:melodyjkt48 ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 2 .
+
+stats:data_12_4_5 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:melodyjkt48 ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 1 .
+
+stats:data_13_1_1 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:nabilahjkt48 ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 4 .
+
+stats:data_13_1_2 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:nabilahjkt48 ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 0 .
+
+stats:data_13_1_3 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:nabilahjkt48 ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 1 .
+
+stats:data_13_1_4 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:nabilahjkt48 ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 3 .
+
+stats:data_13_1_5 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:nabilahjkt48 ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 2 .
+
+stats:data_13_2_1 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:nabilahjkt48 ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_13_2_2 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:nabilahjkt48 ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_13_2_3 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:nabilahjkt48 ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_13_2_4 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:nabilahjkt48 ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 1 .
+
+stats:data_13_2_5 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:nabilahjkt48 ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 1 .
+
+stats:data_13_3_1 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:nabilahjkt48 ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 1 .
+
+stats:data_13_3_2 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:nabilahjkt48 ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_13_3_3 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:nabilahjkt48 ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_13_3_4 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:nabilahjkt48 ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_13_3_5 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:nabilahjkt48 ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_13_4_1 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:nabilahjkt48 ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 6 .
+
+stats:data_13_4_2 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:nabilahjkt48 ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 1 .
+
+stats:data_13_4_3 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:nabilahjkt48 ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 3 .
+
+stats:data_13_4_4 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:nabilahjkt48 ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 1 .
+
+stats:data_13_4_5 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:nabilahjkt48 ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 3 .
+
+stats:data_14_1_1 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:prillybie ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 1 .
+
+stats:data_14_1_2 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:prillybie ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 0 .
+
+stats:data_14_1_3 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:prillybie ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 0 .
+
+stats:data_14_1_4 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:prillybie ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 3 .
+
+stats:data_14_1_5 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:prillybie ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 0 .
+
+stats:data_14_2_1 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:prillybie ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_14_2_2 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:prillybie ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_14_2_3 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:prillybie ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_14_2_4 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:prillybie ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 1 .
+
+stats:data_14_2_5 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:prillybie ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_14_3_1 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:prillybie ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_14_3_2 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:prillybie ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_14_3_3 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:prillybie ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_14_3_4 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:prillybie ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_14_3_5 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:prillybie ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_14_4_1 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:prillybie ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 4 .
+
+stats:data_14_4_2 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:prillybie ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 1 .
+
+stats:data_14_4_3 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:prillybie ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 0 .
+
+stats:data_14_4_4 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:prillybie ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 10 .
+
+stats:data_14_4_5 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:prillybie ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 1 .
+
+stats:data_15_1_1 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:radityadika ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 1 .
+
+stats:data_15_1_2 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:radityadika ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 0 .
+
+stats:data_15_1_3 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:radityadika ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 0 .
+
+stats:data_15_1_4 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:radityadika ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 1 .
+
+stats:data_15_1_5 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:radityadika ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 0 .
+
+stats:data_15_2_1 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:radityadika ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_15_2_2 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:radityadika ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_15_2_3 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:radityadika ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_15_2_4 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:radityadika ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_15_2_5 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:radityadika ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_15_3_1 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:radityadika ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_15_3_2 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:radityadika ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_15_3_3 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:radityadika ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_15_3_4 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:radityadika ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_15_3_5 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:radityadika ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_15_4_1 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:radityadika ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 6 .
+
+stats:data_15_4_2 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:radityadika ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 2 .
+
+stats:data_15_4_3 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:radityadika ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 2 .
+
+stats:data_15_4_4 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:radityadika ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 1 .
+
+stats:data_15_4_5 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:radityadika ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 0 .
+
+stats:data_16_1_1 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:princessyahrini ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 0 .
+
+stats:data_16_1_2 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:princessyahrini ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 0 .
+
+stats:data_16_1_3 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:princessyahrini ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 0 .
+
+stats:data_16_1_4 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:princessyahrini ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 0 .
+
+stats:data_16_1_5 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:princessyahrini ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_tweet 0 .
+
+stats:data_16_2_1 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:princessyahrini ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_16_2_2 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:princessyahrini ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 1 .
+
+stats:data_16_2_3 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:princessyahrini ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_16_2_4 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:princessyahrini ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 3 .
+
+stats:data_16_2_5 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:princessyahrini ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:siang ;
+	stats:jumlah_tweet 0 .
+
+stats:data_16_3_1 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:princessyahrini ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_16_3_2 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:princessyahrini ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_16_3_3 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:princessyahrini ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_16_3_4 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:princessyahrini ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_16_3_5 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:princessyahrini ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:sore ;
+	stats:jumlah_tweet 0 .
+
+stats:data_16_4_1 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:princessyahrini ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 1 .
+
+stats:data_16_4_2 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:princessyahrini ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 20 .
+
+stats:data_16_4_3 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:princessyahrini ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 24 .
+
+stats:data_16_4_4 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:princessyahrini ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 0 .
+
+stats:data_16_4_5 a qb:Observation ;
+	qb:dataSet stats:datasetselebtweet ;
+	dimensi:namaakun namaakun:princessyahrini ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_tweet 2 .

@@ -1,0 +1,1911 @@
+@prefix skos: 			<http://www.w3.org/2004/02/skos/core#> .
+@prefix konsep: 		<http://contoh.com/konsep#> .
+@prefix rdf: 			<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: 			<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dimensi: 		<http://contoh.com/dimensi#> .
+@prefix qb: 			<http://purl.org/linked-data/cube#> .
+@prefix stats: 			<http://contoh.com/statistik#> .
+@prefix vocab: 			<http://contoh.com/vocab> .
+@prefix kategori: 		<http://contoh.com/kategori#> .
+@prefix akun: 			<http://contoh.com/akun#> .
+@prefix waktu: 			<http://contoh.com/waktu#> .
+@prefix xsd:      		<http://www.w3.org/2001/XMLSchema#> .
+@prefix art: 			<http://contoh.com/art#> .
+@prefix foaf: 			<http://xmlns.com/foaf/0.1/> .
+@prefix sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> .
+@prefix sdmx-attribute: <http://purl.org/linked-data/sdmx/2009/attribute#> .
+@prefix sdmx-measure: 	<http://purl.org/linked-data/sdmx/2009/measure#> .
+
+art:artis1 rdf:type foaf:Person ;
+	rdfs:label "Mario" ;
+	foaf:name "Mario Teguh" ;
+	foaf:accountName "marioteguh" .
+
+art:artis2 rdf:type foaf:Person ;
+	rdfs:label "Vierra" ;
+	foaf:name "Vierra" ;
+	foaf:accountName "vierraband" .
+
+art:artis3 rdf:type foaf:Person ;
+	rdfs:label "LastChild" ;
+	foaf:name "LastChild" ;
+	foaf:accountName "lastchild" .
+
+art:artis4 rdf:type foaf:Person ;
+	rdfs:label "Slank" ;
+	foaf:name "Slank" ;
+	foaf:accountName "slankband" .
+
+art:artis5 rdf:type foaf:Person ;
+	rdfs:label "IwanFals"; 
+	foaf:name "IwanFals" ;
+	foaf:accountName "iwanfals" .
+
+art:artis6 rdf:type foaf:Person ;
+	rdfs:label "CintaLaura"; 
+	foaf:name "CintaLaura" ;
+	foaf:accountName "CintaLaura.OfficialPage" .
+
+art:artis7 rdf:type foaf:Person ;
+	rdfs:label "BayuSkak"; 
+	foaf:name "BayuSkak" ;
+	foaf:accountName "Bayu-Skak-223751927722679" .
+
+art:artis8 rdf:type foaf:Person ;
+	rdfs:label "Armada"; 
+	foaf:name "Armada" ;
+	foaf:accountName "armada.musik" .
+
+art:artis9 rdf:type foaf:Person ;
+	rdfs:label "Killingmeinside" ;
+	foaf:name "Killingmeinside" ;
+	foaf:accountName "killingmeinside" .
+
+art:artis10 rdf:type foaf:Person ;
+	rdfs:label "Jrocks" ;
+	foaf:name "Jrocks" ;
+	foaf:accountName "jrocks.official" .
+
+art:artis11 rdf:type foaf:Person ;
+	rdfs:label "WidiVierra" ;
+	foaf:name "WidiVierra" ;
+	foaf:accountName "Widy-Vierra-44971471700" .
+
+art:artis12 rdf:type foaf:Person ;
+	rdfs:label "Afgan" ;
+	foaf:name "Afgan" ;
+	foaf:accountName "AfganOfficial1" .
+
+art:artis13 rdf:type foaf:Person ;
+	rdfs:label "Raisa" ;
+	foaf:name "Raisa" ;
+	foaf:accountName "Raisa6690" .
+
+art:artis14 rdf:type foaf:Person ;
+	rdfs:label "GitaGutawa" ;
+	foaf:name "GitaGutawa" ;
+	foaf:accountName "GitaGutawa" .
+
+art:artis15 rdf:type foaf:Person ;
+	rdfs:label "Dmasiv" ;
+	foaf:name "Dmasiv" ;
+	foaf:accountName "dmasivband" .
+	
+art:artis16 rdf:type foaf:Person ;
+	rdfs:label "Isyana" ;
+	foaf:name "Isyana" ;
+	foaf:accountName "sarasvatisyana" .
+	
+art:artis17 rdf:type foaf:Person ;
+	rdfs:label "YusufMansur" ;
+	foaf:name "YusufMansur" ;
+	foaf:accountName "UstadzYusufMansur" .
+	
+art:artis18 rdf:type foaf:Person ;
+	rdfs:label "ZaskiaMecca" ;
+	foaf:name "ZaskiaMecca" ;
+	foaf:accountName "ZaskiaMeccaOfficial" .
+	
+art:artis19 rdf:type foaf:Person ;
+	rdfs:label "AAGym" ;
+	foaf:name "AAGym" ;
+	foaf:accountName "KH.Abdullah.Gymnastiar" .
+	
+art:artis20 rdf:type foaf:Person ;
+	rdfs:label "RaffiAhmad" ;
+	foaf:name "RaffiAhmad" ;
+	foaf:accountName "RaffiAhmadLagi" .
+	
+art:artis21 rdf:type foaf:Person ;
+	rdfs:label "RadityaDika" ;
+	foaf:name "RadityaDika" ;
+	foaf:accountName "radityadikapages" .
+	
+art:artis22 rdf:type foaf:Person ;
+	rdfs:label "MaudyAyunda" ;
+	foaf:name "MaudyAyunda" ;
+	foaf:accountName "AyundaFazaMaudy" .
+	
+art:artis23 rdf:type foaf:Person ;
+	rdfs:label "Prilly" ;
+	foaf:name "Prilly" ;
+	foaf:accountName "officialprillvers" .
+
+vocab:akun a rdfs:Class .
+vocab:kategori a rdfs:Class .
+vocab:waktu a rdfs:Class .
+
+akun:Mario
+	a skos:Concept, vocab:akun ;
+	rdfs:label "Mario" ;
+	skos:inScheme konsep:akun .
+akun:Vierra
+	a skos:Concept, vocab:akun ;
+	rdfs:label "Vierra" ;
+	skos:inScheme konsep:akun .
+akun:LastChild
+	a skos:Concept, vocab:akun ;
+	rdfs:label "LastChild" ;
+	skos:inScheme konsep:akun .
+akun:Slank
+	a skos:Concept, vocab:akun ;
+	rdfs:label "Slank" ;
+	skos:inScheme konsep:akun .
+akun:IwanFals
+	a skos:Concept, vocab:akun ;
+	rdfs:label "IwanFals" ;
+	skos:inScheme konsep:akun .
+akun:CintaLaura
+	a skos:Concept, vocab:akun ;
+	rdfs:label "CintaLaura" ;
+	skos:inScheme konsep:akun .
+akun:BayuSkak
+	a skos:Concept, vocab:akun ;
+	rdfs:label "BayuSkak" ;
+	skos:inScheme konsep:akun .
+akun:Armada
+	a skos:Concept, vocab:akun ;
+	rdfs:label "Armada" ;
+	skos:inScheme konsep:akun .
+akun:Killingmeinside
+	a skos:Concept, vocab:akun ;
+	rdfs:label "Killingmeinside" ;
+	skos:inScheme konsep:akun .
+akun:Jrocks
+	a skos:Concept, vocab:akun ;
+	rdfs:label "Jrocks" ;
+	skos:inScheme konsep:akun .
+akun:WidiVierra
+	a skos:Concept, vocab:akun ;
+	rdfs:label "WidiVierra" ;
+	skos:inScheme konsep:akun .
+akun:Afgan
+	a skos:Concept, vocab:akun ;
+	rdfs:label "Afgan" ;
+	skos:inScheme konsep:akun .
+akun:Raisa
+	a skos:Concept, vocab:akun ;
+	rdfs:label "Raisa" ;
+	skos:inScheme konsep:akun .
+akun:GitaGutawa
+	a skos:Concept, vocab:akun ;
+	rdfs:label "GitaGutawa" ;
+	skos:inScheme konsep:akun .
+akun:Dmasiv
+	a skos:Concept, vocab:akun ;
+	rdfs:label "Dmasiv" ;
+	skos:inScheme konsep:akun .
+akun:Isyana
+	a skos:Concept, vocab:akun ;
+	rdfs:label "Isyana" ;
+	skos:inScheme konsep:akun .
+akun:YusufMansur
+	a skos:Concept, vocab:akun ;
+	rdfs:label "YusufMansur" ;
+	skos:inScheme konsep:akun .
+akun:ZaskiaMecca
+	a skos:Concept, vocab:akun ;
+	rdfs:label "ZaskiaMecca" ;
+	skos:inScheme konsep:akun .
+akun:AAGym
+	a skos:Concept, vocab:akun ;
+	rdfs:label "AAGym" ;
+	skos:inScheme konsep:akun .
+akun:RadityaDika
+	a skos:Concept, vocab:akun ;
+	rdfs:label "RadityaDika" ;
+	skos:inScheme konsep:akun .
+akun:RaffiAhmad
+	a skos:Concept, vocab:akun ;
+	rdfs:label "RaffiAhmad" ;
+	skos:inScheme konsep:akun .
+akun:MaudyAyunda
+	a skos:Concept, vocab:akun ;
+	rdfs:label "MaudyAyunda" ;
+	skos:inScheme konsep:akun .
+akun:Prilly
+	a skos:Concept, vocab:akun ;
+	rdfs:label "Prilly" ;
+	skos:inScheme konsep:akun .
+	
+kategori:event
+	a skos:Concept, vocab:kategori ;
+	rdfs:label "Event" ;
+	skos:inScheme konsep:Kategori .
+kategori:promosi
+	a skos:Concept, vocab:kategori ;
+	rdfs:label "Promosi" ;
+	skos:inScheme konsep:Kategori .
+kategori:produk
+	a skos:Concept, vocab:kategori ;
+	rdfs:label "Produk" ;
+	skos:inScheme konsep:Kategori .
+kategori:motivasi
+	a skos:Concept, vocab:kategori ;
+	rdfs:label "Pesan / Motivasi" ;
+	skos:inScheme konsep:Kategori .
+kategori:keluarga
+	a skos:Concept, vocab:kategori ;
+	rdfs:label "Keluarga" ;
+	skos:inScheme konsep:Kategori .
+	
+waktu:pagi
+	a skos:Concept, vocab:waktu ;
+	rdfs:label "Pagi" ;
+	skos:inScheme konsep:Waktu .
+waktu:malam
+	a skos:Concept, vocab:waktu ;
+	rdfs:label "Malam" ;
+	skos:inScheme konsep:Waktu .
+
+konsep:akun a skos:ConceptScheme ;
+	rdfs:label "Akun Twitter" ;
+	skos:hasTopConcept akun:Mario, akun:Vierra, akun:LastChild, akun:Slank, akun:Killingmeinside, akun:CintaLaura, akun:BayuSkak, akun:Armada, akun:Killingmeinside, akun:Jrocks, akun:WidiVierra, akun:Afgan, akun:Raisa, akun:GitaGutawa, akun:Dmasiv, akun:Isyana, akun:YusufMansur, akun:ZaskiaMecca, akun:AAGym, akun:RadityaDika, akun:RaffiAhmad, akun:MaudyAyunda, akun:Prilly ;
+	skos:notation "akun" .
+konsep:Kategori a skos:ConceptScheme ;
+	rdfs:label "Tahun" ;
+	skos:hasTopConcept kategori:event, kategori:promosi, kategori:produk, kategori:motivasi, kategori:keluarga ;
+	skos:notation "Kategori" .	
+konsep:waktu a skos:ConceptScheme ;
+	rdfs:label "Waktu" ;
+	skos:hasTopConcept waktu:pagi, waktu:malam ;
+	skos:notation "Waktu" .
+
+dimensi:akun
+	qb:CodeList konsep:akun ;
+	a rdfs:Property, qb:DimensionProperty ;
+	rdfs:range skos:Concept .
+dimensi:kategori
+	qb:CodeList konsep:Kategori ;
+	a rdfs:Property, qb:DimensionProperty ;
+	rdfs:range skos:Concept .
+dimensi:waktu
+	qb:CodeList konsep:Waktu ;
+	a rdfs:Property, qb:DimensionProperty ;
+	rdfs:range skos:Concept .
+	
+stats:jumlah_post a rdf:Property, qb:MeasureProperty ;
+	rdfs:label "Jumlah_Post";
+	rdfs:range xsd:integer .
+	
+stats:dataselebpost a qb:DataStructureDefinition;
+    # The dimensions
+    qb:component 	[ qb:dimension dimensi:akun],
+					[ qb:dimension dimensi:kategori],
+					[ qb:dimension dimensi:waktu],
+					[ qb:measure stats:jumlah_post] .
+
+stats:datasetselebpost 
+	a qb:DataSet;
+    rdfs:label "DataPostSelebriti";
+    qb:structure stats:dataselebpost .  
+
+stats:data_1 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Mario ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 3 .
+
+stats:data_2 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Mario ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 0 .
+
+stats:data_3 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Mario ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 1 .
+
+stats:data_4 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Mario ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 29 .
+
+stats:data_5 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Mario ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 2 .
+
+stats:data_6 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Mario ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 27 .
+
+stats:data_7 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Mario ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_8 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Mario ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_9 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Mario ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 4 .
+
+stats:data_10 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Mario ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 1 .
+
+stats:data_11 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Vierra ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 8 .
+
+stats:data_12 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Vierra ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 0 .
+
+stats:data_13 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Vierra ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 0 .
+
+stats:data_14 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Vierra ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 1 .
+
+stats:data_15 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Vierra ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 0 .
+
+stats:data_16 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Vierra ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 7 .
+
+stats:data_17 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Vierra ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_18 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Vierra ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_19 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Vierra ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_20 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Vierra ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_21 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:LastChild ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 12 .
+
+stats:data_22 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:LastChild ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 0 .
+
+stats:data_23 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:LastChild ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 18 .
+
+stats:data_24 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:LastChild ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 0 .
+
+stats:data_25 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:LastChild ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 0 .
+
+stats:data_26 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:LastChild ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 4 .
+
+stats:data_27 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:LastChild ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_28 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:LastChild ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 15 .
+
+stats:data_29 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:LastChild ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 2 .
+
+stats:data_30 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:LastChild ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 1 .
+
+stats:data_31 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Slank ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 7 .
+
+stats:data_32 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Slank ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 2 .
+
+stats:data_33 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Slank ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 5 .
+
+stats:data_34 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Slank ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 1 .
+
+stats:data_35 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Slank ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 0 .
+
+stats:data_36 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Slank ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 6 .
+
+stats:data_37 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Slank ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_38 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Slank ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 3 .
+
+stats:data_39 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Slank ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_40 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Slank ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 1 .
+
+stats:data_41 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Killingmeinside ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 5 .
+
+stats:data_42 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Killingmeinside ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 2 .
+
+stats:data_43 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Killingmeinside ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 0 .
+
+stats:data_44 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Killingmeinside ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 1 .
+
+stats:data_45 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Killingmeinside ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 0 .
+
+stats:data_46 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Killingmeinside ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 3 .
+
+stats:data_47 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Killingmeinside ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_48 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Killingmeinside ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_49 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Killingmeinside ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_50 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Killingmeinside ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_51 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:CintaLaura ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 2 .
+
+stats:data_52 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:CintaLaura ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 0 .
+
+stats:data_53 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:CintaLaura ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 0 .
+
+stats:data_54 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:CintaLaura ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 4 .
+
+stats:data_55 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:CintaLaura ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 0 .
+
+stats:data_56 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:CintaLaura ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 1 .
+
+stats:data_57 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:CintaLaura ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_58 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:CintaLaura ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_59 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:CintaLaura ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 2 .
+
+stats:data_60 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:CintaLaura ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_61 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:BayuSkak ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 3 .
+
+stats:data_62 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:BayuSkak ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 1 .
+
+stats:data_63 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:BayuSkak ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 0 .
+
+stats:data_64 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:BayuSkak ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 1 .
+
+stats:data_65 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:BayuSkak ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 0 .
+
+stats:data_66 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:BayuSkak ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 3 .
+
+stats:data_67 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:BayuSkak ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 2 .
+
+stats:data_68 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:BayuSkak ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_69 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:BayuSkak ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_70 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:BayuSkak ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 1 .
+
+stats:data_71 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Armada ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 6 .
+
+stats:data_72 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Armada ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 1 .
+
+stats:data_73 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Armada ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 4 .
+
+stats:data_74 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Armada ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 0 .
+
+stats:data_75 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Armada ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 2 .
+
+stats:data_76 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Armada ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_77 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Armada ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_78 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Armada ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_79 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Armada ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_80 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Armada ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_81 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Jrocks ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 4 .
+
+stats:data_92 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Jrocks ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 0 .
+
+stats:data_93 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Jrocks ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 4 .
+
+stats:data_94 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Jrocks ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 1 .
+
+stats:data_95 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Jrocks ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 0 .
+
+stats:data_96 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Jrocks ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 3 .
+
+stats:data_97 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Jrocks ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_98 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Jrocks ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 1 .
+
+stats:data_99 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Jrocks ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_100 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Jrocks ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_101 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:WidiVierra ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 3 .
+
+stats:data_102 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:WidiVierra ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 0 .
+
+stats:data_103 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:WidiVierra ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 0 .
+
+stats:data_104 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:WidiVierra ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 1 .
+
+stats:data_105 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:WidiVierra ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 0 .
+
+stats:data_106 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:WidiVierra ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_107 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:WidiVierra ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_108 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:WidiVierra ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_109 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:WidiVierra ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_110 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:WidiVierra ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_111 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Afgan ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 14 .
+
+stats:data_112 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Afgan ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 0 .
+
+stats:data_113 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Afgan ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 3 .
+
+stats:data_114 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Afgan ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 6 .
+
+stats:data_115 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Afgan ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 0 .
+
+stats:data_116 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Afgan ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 3 .
+
+stats:data_117 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Afgan ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_118 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Afgan ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 5 .
+
+stats:data_119 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Afgan ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_120 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Afgan ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_121 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Raisa ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 4 .
+
+stats:data_122 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Raisa ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 2 .
+
+stats:data_123 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Raisa ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 4 .
+
+stats:data_124 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Raisa ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 0 .
+
+stats:data_125 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Raisa ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 1 .
+
+stats:data_126 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Raisa ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_127 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Raisa ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_128 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Raisa ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 1 .
+
+stats:data_129 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Raisa ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 1 .
+
+stats:data_130 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Raisa ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_131 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:GitaGutawa ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 1 .
+
+stats:data_132 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:GitaGutawa ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 0 .
+
+stats:data_133 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:GitaGutawa ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 0 .
+
+stats:data_134 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:GitaGutawa ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 1 .
+
+stats:data_135 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:GitaGutawa ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 0 .
+
+stats:data_136 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:GitaGutawa ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 1 .
+
+stats:data_137 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:GitaGutawa ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_138 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:GitaGutawa ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_139 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:GitaGutawa ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_140 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:GitaGutawa ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_141 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Dmasiv ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 12 .
+
+stats:data_142 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Dmasiv ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 4 .
+
+stats:data_143 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Dmasiv ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 2 .
+
+stats:data_144 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Dmasiv ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 3 .
+
+stats:data_145 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Dmasiv ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 0 .
+
+stats:data_146 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Dmasiv ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 2 .
+
+stats:data_147 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Dmasiv ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_148 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Dmasiv ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 3 .
+
+stats:data_149 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Dmasiv ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 1 .
+
+stats:data_150 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Dmasiv ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 1 .
+
+stats:data_151 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Isyana ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 1 .
+
+stats:data_152 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Isyana ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 3 .
+
+stats:data_153 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Isyana ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 0 .
+
+stats:data_154 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Isyana ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 3 .
+
+stats:data_155 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Isyana ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 0 .
+
+stats:data_156 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Isyana ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 7 .
+
+stats:data_157 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Isyana ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_158 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Isyana ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 1 .
+
+stats:data_159 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Isyana ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_160 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:Isyana ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_161 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:IwanFals ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 9 .
+
+stats:data_162 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:IwanFals ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 0 .
+
+stats:data_163 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:IwanFals ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 3 .
+
+stats:data_164 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:IwanFals ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 2 .
+
+stats:data_165 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:IwanFals ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 1 .
+
+stats:data_166 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:IwanFals ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 3 .
+
+stats:data_167 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:IwanFals ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_168 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:IwanFals ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_169 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:IwanFals ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 1 .
+
+stats:data_170 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:IwanFals ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_171 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:YusufMansur ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 13 .
+
+stats:data_172 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:YusufMansur ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 14 .
+
+stats:data_173 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:YusufMansur ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 7 .
+
+stats:data_174 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:YusufMansur ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 22 .
+
+stats:data_175 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:YusufMansur ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 2 .
+
+stats:data_176 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:YusufMansur ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 6 .
+
+stats:data_177 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:YusufMansur ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_178 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:YusufMansur ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 4 .
+
+stats:data_179 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:YusufMansur ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 16 .
+
+stats:data_180 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:YusufMansur ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_181 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:ZaskiaMecca ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 18 .
+
+stats:data_182 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:ZaskiaMecca ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 1 .
+
+stats:data_183 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:ZaskiaMecca ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 0 .
+
+stats:data_184 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:ZaskiaMecca ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 0 .
+
+stats:data_185 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:ZaskiaMecca ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 0 .
+
+stats:data_186 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:ZaskiaMecca ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 18 .
+
+stats:data_187 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:ZaskiaMecca ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_188 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:ZaskiaMecca ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_189 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:ZaskiaMecca ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_190 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:ZaskiaMecca ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_191 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:AAGym ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 18 .
+
+stats:data_192 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:AAGym ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 1 .
+
+stats:data_193 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:AAGym ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 0 .
+
+stats:data_194 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:AAGym ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 0 .
+
+stats:data_195 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:AAGym ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 0 .
+
+stats:data_196 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:AAGym ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 18 .
+
+stats:data_197 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:AAGym ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_198 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:AAGym ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_199 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:AAGym ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_200 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:AAGym ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_201 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:RadityaDika ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 6 .
+
+stats:data_202 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:RadityaDika ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 2 .
+
+stats:data_203 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:RadityaDika ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 2 .
+
+stats:data_204 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:RadityaDika ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 1 .
+
+stats:data_205 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:RadityaDika ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 1 .
+
+stats:data_206 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:RadityaDika ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 2 .
+
+stats:data_207 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:RadityaDika ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_208 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:RadityaDika ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_209 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:RadityaDika ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_210 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:RadityaDika ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_211 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:RaffiAhmad ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 10 .
+
+stats:data_212 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:RaffiAhmad ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 3 .
+
+stats:data_213 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:RaffiAhmad ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 3 .
+
+stats:data_214 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:RaffiAhmad ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 4 .
+
+stats:data_215 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:RaffiAhmad ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 4 .
+
+stats:data_216 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:RaffiAhmad ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 1 .
+
+stats:data_217 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:RaffiAhmad ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_218 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:RaffiAhmad ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 3 .
+
+stats:data_219 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:RaffiAhmad ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 2 .
+
+stats:data_220 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:RaffiAhmad ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_221 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:MaudyAyunda ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 3 .
+
+stats:data_222 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:MaudyAyunda ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 5 .
+
+stats:data_223 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:MaudyAyunda ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 4 .
+
+stats:data_224 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:MaudyAyunda ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 0 .
+
+stats:data_225 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:MaudyAyunda ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 0 .
+
+stats:data_226 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:MaudyAyunda ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_227 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:MaudyAyunda ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_228 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:MaudyAyunda ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 1 .
+
+stats:data_229 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:MaudyAyunda ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_230 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:MaudyAyunda ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
+
+stats:data_231 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:MaudyAyunda ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 3 .
+
+stats:data_232 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:MaudyAyunda ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 5 .
+
+stats:data_233 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:MaudyAyunda ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 4 .
+
+stats:data_234 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:MaudyAyunda ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 9 .
+
+stats:data_235 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:MaudyAyunda ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:pagi ;
+	stats:jumlah_post 0 .
+
+stats:data_236 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:MaudyAyunda ;
+	dimensi:kategori kategori:event ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 3 .
+
+stats:data_237 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:MaudyAyunda ;
+	dimensi:kategori kategori:promosi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 1 .
+
+stats:data_238 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:MaudyAyunda ;
+	dimensi:kategori kategori:produk ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 1 .
+
+stats:data_239 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:MaudyAyunda ;
+	dimensi:kategori kategori:motivasi ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 7 .
+
+stats:data_240 a qb:Observation ;
+	qb:dataSet stats:dataset-selebpost ;
+	dimensi:akun akun:MaudyAyunda ;
+	dimensi:kategori kategori:keluarga ;
+	dimensi:waktu waktu:malam ;
+	stats:jumlah_post 0 .
